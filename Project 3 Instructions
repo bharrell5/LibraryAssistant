@@ -1,0 +1,37 @@
+Project 3 – Librarian’s Assistant 
+
+The board of your public library has decided to enter the Information Age and computerize the library operations.
+The goal is to have all books and library cards online, and to keep track of what books are out, etc.  
+You’ve been hired to build the software to manage the library, its books, and library card holders.  
+
+This project incorporates two main objects, books and cards:
+
+•	Book - this class defines the data that makes up a book object and the actions a book object can take.  The data consists of:
+o	A title of the book
+o	Author
+o	Book number
+o	Whether it’s checked out or not
+o	Who has the book (Card ID of the holder, 0 if checked in)
+
+A book needs to be able to create itself (constructor), check the status, change the status when a book is checked out/in, 
+check who has the book, and change who has the book
+
+
+•	Card - this class defines the data that makes up a library card object and the actions a card object can take.  
+The data consists of:
+o	Card holder’s name
+o	Card holder’s phone number
+o	Card ID number
+o	The book number of the book checked out (0 if none)
+
+A card needs to be able to create itself (constructor), check any of the variables of the class, and change the book number.
+
+Program Requirements 
+The program must have a recurring main menu that reappears after every menu action is completed and must contain the following options.
+
+1.	Show all library cards
+2.	Show all books
+3.	Check out a book
+4.	Check in a book
+5.	Create a new library card
+6.	Exit the system
